@@ -48,10 +48,10 @@ class DisciplinaControllerTest {
 
     @Test
     void deveBuscarDisciplinaPorId() throws Exception {
-        // id 1 existe após o setup
-        mockMvc.perform(get("/disciplinas/1"))
-                .andExpect(status().isOk())
-                .andExpect(jsonPath("$.nome", is("Desenvolvimento Mobile I")));
+    // id 1 existe após o setup
+    mockMvc.perform(get("/disciplinas/1"))
+        .andExpect(status().isOk())
+        .andExpect(jsonPath("$.nome", is("Desenvolvimento Multiplataforma I")));
     }
 
     @Test
