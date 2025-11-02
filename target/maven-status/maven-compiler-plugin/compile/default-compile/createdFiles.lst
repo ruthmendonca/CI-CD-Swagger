@@ -1,0 +1,4 @@
+br/com/example/cicdswagger/repository/DisciplinaRepository.class
+br/com/example/cicdswagger/CiCdSwaggerApplication.class
+br/com/example/cicdswagger/controller/DisciplinaController.class
+br/com/example/cicdswagger/model/Disciplina.class
